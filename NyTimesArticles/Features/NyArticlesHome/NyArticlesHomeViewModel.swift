@@ -19,7 +19,7 @@ class NyArticlesHomeViewModel<T:Codable> : ObservableObject {
     @Published var error:ErrorResponse = ErrorResponse(message: "")
     
     func getArticles() {
-        
+    
         articleUseCase.getArticles { [weak self] result in
             switch result {
             case .success(let response):
