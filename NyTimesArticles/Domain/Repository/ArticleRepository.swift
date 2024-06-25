@@ -8,5 +8,5 @@
 import Foundation
 
 protocol ArticleRepository{
-    func getArticles() -> [NyArticle]
+    func getArticles(completion: @escaping APIClientCompletion)
 }

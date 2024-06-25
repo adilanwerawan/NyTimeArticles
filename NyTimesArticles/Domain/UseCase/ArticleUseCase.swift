@@ -8,10 +8,10 @@
 import Foundation
 
 struct ArticleUseCase: ArticleRepository {
-    var repo: ArticleRespository
+    var repo: ArticleRepository
     
-    func getEvents() -> [NyArticle] {
-        return repo.getArticles()
+    func getArticles(completion: @escaping APIClientCompletion){
+        return repo.getArticles(completion: completion)
     }
     
 }

@@ -9,7 +9,11 @@ import Foundation
 
 struct ArticleApiDataSourceImpl: ArticleRepository{
     
-    func getArticles() -> [NyArticle] {
+    let apiClient = APIClient()
+    
+    func getArticles(completion: @escaping APIClientCompletion){
+        let request = ArticlesRequest()
         
+        return apiClient.sendRequest(apiRequest: request, completion: completion)
     }
 }

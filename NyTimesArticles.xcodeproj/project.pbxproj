@@ -23,6 +23,12 @@
 		5DBA420E2C2AC30300B716CD /* ArticleApiDataSourceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA420D2C2AC30300B716CD /* ArticleApiDataSourceImpl.swift */; };
 		5DBA42112C2AC44400B716CD /* ArticleRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42102C2AC44400B716CD /* ArticleRepositoryImpl.swift */; };
 		5DBA42142C2AC54700B716CD /* NyArticlesHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42132C2AC54700B716CD /* NyArticlesHomeViewModel.swift */; };
+		5DBA42172C2ACD8C00B716CD /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42162C2ACD8C00B716CD /* ApiClient.swift */; };
+		5DBA421A2C2ACFA500B716CD /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42192C2ACFA500B716CD /* APIRequest.swift */; };
+		5DBA421D2C2AD01500B716CD /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA421C2C2AD01500B716CD /* HTTPMethod.swift */; };
+		5DBA42212C2B1FFB00B716CD /* ArticlesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42202C2B1FFB00B716CD /* ArticlesRequest.swift */; };
+		5DBA42232C2B251700B716CD /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42222C2B251700B716CD /* ApiConstants.swift */; };
+		5DBA42262C2B47A700B716CD /* ErrorResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42252C2B47A700B716CD /* ErrorResponce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +69,12 @@
 		5DBA420D2C2AC30300B716CD /* ArticleApiDataSourceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleApiDataSourceImpl.swift; sourceTree = "<group>"; };
 		5DBA42102C2AC44400B716CD /* ArticleRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRepositoryImpl.swift; sourceTree = "<group>"; };
 		5DBA42132C2AC54700B716CD /* NyArticlesHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyArticlesHomeViewModel.swift; sourceTree = "<group>"; };
+		5DBA42162C2ACD8C00B716CD /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		5DBA42192C2ACFA500B716CD /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		5DBA421C2C2AD01500B716CD /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		5DBA42202C2B1FFB00B716CD /* ArticlesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesRequest.swift; sourceTree = "<group>"; };
+		5DBA42222C2B251700B716CD /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		5DBA42252C2B47A700B716CD /* ErrorResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponce.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +217,8 @@
 		5DBA420B2C2AC2D100B716CD /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				5DBA42182C2ACF9000B716CD /* DataModels */,
+				5DBA42152C2ACD8000B716CD /* Network */,
 				5DBA420F2C2AC42900B716CD /* Repository */,
 				5DBA420C2C2AC2DC00B716CD /* DataSource */,
 			);
@@ -234,6 +248,50 @@
 				5DBA42132C2AC54700B716CD /* NyArticlesHomeViewModel.swift */,
 			);
 			path = NyArticlesHome;
+			sourceTree = "<group>";
+		};
+		5DBA42152C2ACD8000B716CD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA42162C2ACD8C00B716CD /* ApiClient.swift */,
+				5DBA42222C2B251700B716CD /* ApiConstants.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5DBA42182C2ACF9000B716CD /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA42242C2B479500B716CD /* Error */,
+				5DBA421F2C2B1FD300B716CD /* ArticlesRequest */,
+				5DBA421E2C2AD0F600B716CD /* APIRequest */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		5DBA421E2C2AD0F600B716CD /* APIRequest */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA42192C2ACFA500B716CD /* APIRequest.swift */,
+				5DBA421C2C2AD01500B716CD /* HTTPMethod.swift */,
+			);
+			path = APIRequest;
+			sourceTree = "<group>";
+		};
+		5DBA421F2C2B1FD300B716CD /* ArticlesRequest */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA42202C2B1FFB00B716CD /* ArticlesRequest.swift */,
+			);
+			path = ArticlesRequest;
+			sourceTree = "<group>";
+		};
+		5DBA42242C2B479500B716CD /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA42252C2B47A700B716CD /* ErrorResponce.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,17 +424,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBA42212C2B1FFB00B716CD /* ArticlesRequest.swift in Sources */,
 				5DBA42032C2ABD7E00B716CD /* NyMediaMetadata.swift in Sources */,
 				5DBA41D02C2AB7E000B716CD /* NyArticlesHomeView.swift in Sources */,
+				5DBA421D2C2AD01500B716CD /* HTTPMethod.swift in Sources */,
+				5DBA42232C2B251700B716CD /* ApiConstants.swift in Sources */,
+				5DBA421A2C2ACFA500B716CD /* APIRequest.swift in Sources */,
 				5DBA420E2C2AC30300B716CD /* ArticleApiDataSourceImpl.swift in Sources */,
 				5DBA42042C2ABD7E00B716CD /* NyArticle.swift in Sources */,
 				5DBA42112C2AC44400B716CD /* ArticleRepositoryImpl.swift in Sources */,
 				5DBA42142C2AC54700B716CD /* NyArticlesHomeViewModel.swift in Sources */,
+				5DBA42262C2B47A700B716CD /* ErrorResponce.swift in Sources */,
 				5DBA42052C2ABD7E00B716CD /* NyResult.swift in Sources */,
 				5DBA420A2C2AC08700B716CD /* ArticleUseCase.swift in Sources */,
 				5DBA41CE2C2AB7E000B716CD /* NyTimesArticlesApp.swift in Sources */,
 				5DBA42082C2AC00100B716CD /* ArticleRepository.swift in Sources */,
 				5DBA42022C2ABD7E00B716CD /* NyMedia.swift in Sources */,
+				5DBA42172C2ACD8C00B716CD /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ struct ArticleRepositoryImpl: ArticleRepository {
     
     var dataSource: ArticleRepository
     
-    func getEvents() -> [NyArticle] {
-        return dataSource.getArticles()
+    func getArticles(completion: @escaping APIClientCompletion){
+        return dataSource.getArticles(completion: completion)
     }
 }
