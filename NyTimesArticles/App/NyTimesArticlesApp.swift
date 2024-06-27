@@ -11,7 +11,7 @@ import SwiftUI
 struct NyTimesArticlesApp: App {
     var body: some Scene {
         WindowGroup {
-            NyArticlesHomeView()
+            NyArticlesHomeView(viewModel: NyArticlesHomeViewModel())
         }
     }
 }

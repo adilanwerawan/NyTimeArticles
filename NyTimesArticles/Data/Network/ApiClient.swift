@@ -48,24 +48,27 @@ public class APIClient: APIClientProtocol {
     
     public func send(apiRequest: APIRequest, mock: Bool = false, completion: @escaping APIClientCompletion){
         
-        let url = self.getFullURL(for: apiRequest, mock: mock)
+        let urlStr = self.getFullURL(for: apiRequest, mock: mock)
         let headers = self.getHeaders(for: apiRequest)
         
-        guard let url = URL(string: url) else {
-            completion(.failure(.invalidURL)); 
+        guard var urlComps = URLComponents(string: urlStr) else {
+            completion(.failure(.invalidURL));
             return
         }
+        
+        var queryItems:[URLQueryItem] = []
+        
+        for item in apiRequest.parameters{
+            queryItems.append(URLQueryItem(name: item.key, value: item.value as? String))
+        }
+        
+        urlComps.queryItems = queryItems
+        let url = urlComps.url!
         
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = apiRequest.method.rawValue
         
-        do {
-            let jsonData = try JSONSerialization.data(withJSONObject: apiRequest.parameters, options: [])
-            urlRequest.httpBody = jsonData
-            urlRequest.allHTTPHeaderFields = headers
-        } catch {
-            print("Error serializing JSON:", error)
-        }
+        urlRequest.allHTTPHeaderFields = headers
         
         let task = session.dataTask(with: urlRequest) { (data, response, error) in
             guard let httpResponse = response as? HTTPURLResponse else {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D24C0D42C2D769600CB407E /* NyAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D24C0D32C2D769600CB407E /* NyAsyncImage.swift */; };
 		5DBA41CE2C2AB7E000B716CD /* NyTimesArticlesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA41CD2C2AB7E000B716CD /* NyTimesArticlesApp.swift */; };
 		5DBA41D02C2AB7E000B716CD /* NyArticlesHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA41CF2C2AB7E000B716CD /* NyArticlesHomeView.swift */; };
 		5DBA41D22C2AB7E200B716CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA41D12C2AB7E200B716CD /* Assets.xcassets */; };
@@ -29,6 +30,10 @@
 		5DBA42212C2B1FFB00B716CD /* ArticlesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42202C2B1FFB00B716CD /* ArticlesRequest.swift */; };
 		5DBA42232C2B251700B716CD /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42222C2B251700B716CD /* ApiConstants.swift */; };
 		5DBA42262C2B47A700B716CD /* ErrorResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42252C2B47A700B716CD /* ErrorResponce.swift */; };
+		5DBA422A2C2C03A500B716CD /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42292C2C03A500B716CD /* ArticleRow.swift */; };
+		5DBA422D2C2C096E00B716CD /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA422C2C2C096E00B716CD /* View+Extension.swift */; };
+		5DBA42332C2C248900B716CD /* NyArticleDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42322C2C248900B716CD /* NyArticleDetails.swift */; };
+		5DBA42352C2C24A600B716CD /* NyArticleDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42342C2C24A600B716CD /* NyArticleDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D24C0D32C2D769600CB407E /* NyAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyAsyncImage.swift; sourceTree = "<group>"; };
 		5DBA41CA2C2AB7E000B716CD /* NyTimesArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyTimesArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBA41CD2C2AB7E000B716CD /* NyTimesArticlesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyTimesArticlesApp.swift; sourceTree = "<group>"; };
 		5DBA41CF2C2AB7E000B716CD /* NyArticlesHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyArticlesHomeView.swift; sourceTree = "<group>"; };
@@ -75,6 +81,10 @@
 		5DBA42202C2B1FFB00B716CD /* ArticlesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesRequest.swift; sourceTree = "<group>"; };
 		5DBA42222C2B251700B716CD /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
 		5DBA42252C2B47A700B716CD /* ErrorResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponce.swift; sourceTree = "<group>"; };
+		5DBA42292C2C03A500B716CD /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
+		5DBA422C2C2C096E00B716CD /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		5DBA42322C2C248900B716CD /* NyArticleDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyArticleDetails.swift; sourceTree = "<group>"; };
+		5DBA42342C2C24A600B716CD /* NyArticleDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyArticleDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D24C0D22C2D768000CB407E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				5D24C0D32C2D769600CB407E /* NyAsyncImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		5DBA41C12C2AB7E000B716CD = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +146,8 @@
 				5DBA420B2C2AC2D100B716CD /* Data */,
 				5DBA41FA2C2ABBB900B716CD /* Domain */,
 				5DBA41F92C2AB80B00B716CD /* Features */,
+				5DBA42272C2C038300B716CD /* UI */,
+				5DBA422B2C2C095500B716CD /* Extensions */,
 				5DBA41F82C2AB7FA00B716CD /* App */,
 				5DBA41D12C2AB7E200B716CD /* Assets.xcassets */,
 				5DBA41D32C2AB7E200B716CD /* NyTimesArticles.entitlements */,
@@ -173,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				5DBA42122C2AC51400B716CD /* NyArticlesHome */,
+				5DBA42312C2C246500B716CD /* NyArticleDetails */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -292,6 +313,40 @@
 				5DBA42252C2B47A700B716CD /* ErrorResponce.swift */,
 			);
 			path = Error;
+			sourceTree = "<group>";
+		};
+		5DBA42272C2C038300B716CD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5D24C0D22C2D768000CB407E /* Image */,
+				5DBA42282C2C038B00B716CD /* ArticleRow */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5DBA42282C2C038B00B716CD /* ArticleRow */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA42292C2C03A500B716CD /* ArticleRow.swift */,
+			);
+			path = ArticleRow;
+			sourceTree = "<group>";
+		};
+		5DBA422B2C2C095500B716CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA422C2C2C096E00B716CD /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5DBA42312C2C246500B716CD /* NyArticleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA42322C2C248900B716CD /* NyArticleDetails.swift */,
+				5DBA42342C2C24A600B716CD /* NyArticleDetailsViewModel.swift */,
+			);
+			path = NyArticleDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,7 +481,10 @@
 			files = (
 				5DBA42212C2B1FFB00B716CD /* ArticlesRequest.swift in Sources */,
 				5DBA42032C2ABD7E00B716CD /* NyMediaMetadata.swift in Sources */,
+				5DBA42332C2C248900B716CD /* NyArticleDetails.swift in Sources */,
 				5DBA41D02C2AB7E000B716CD /* NyArticlesHomeView.swift in Sources */,
+				5DBA42352C2C24A600B716CD /* NyArticleDetailsViewModel.swift in Sources */,
+				5DBA422D2C2C096E00B716CD /* View+Extension.swift in Sources */,
 				5DBA421D2C2AD01500B716CD /* HTTPMethod.swift in Sources */,
 				5DBA42232C2B251700B716CD /* ApiConstants.swift in Sources */,
 				5DBA421A2C2ACFA500B716CD /* APIRequest.swift in Sources */,
@@ -440,7 +498,9 @@
 				5DBA41CE2C2AB7E000B716CD /* NyTimesArticlesApp.swift in Sources */,
 				5DBA42082C2AC00100B716CD /* ArticleRepository.swift in Sources */,
 				5DBA42022C2ABD7E00B716CD /* NyMedia.swift in Sources */,
+				5D24C0D42C2D769600CB407E /* NyAsyncImage.swift in Sources */,
 				5DBA42172C2ACD8C00B716CD /* ApiClient.swift in Sources */,
+				5DBA422A2C2C03A500B716CD /* ArticleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,7 +673,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -650,7 +710,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;

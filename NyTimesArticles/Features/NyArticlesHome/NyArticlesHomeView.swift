@@ -8,17 +8,40 @@
 import SwiftUI
 
 struct NyArticlesHomeView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+    
+    @StateObject public var vm:NyArticlesHomeViewModel
+    
+    public init(viewModel: NyArticlesHomeViewModel) {
+        self._vm = StateObject(wrappedValue: viewModel)
     }
-}
-
-#Preview {
-    NyArticlesHomeView()
+    
+    var body: some View {
+        NavigationView {
+            ZStack{
+                VStack{
+                    List(self.vm.articles) { row in
+                        NavigationLink(destination: NyArticleDetails(viewModel: NyArticleDetailViewModel(nyArticle: row))) {
+                            ArticleRow(photoURL: self.vm.photoUrl(article: row), title: self.vm.articleTitle(article: row), date: self.vm.publishedDate(article: row), byAuthor: self.vm.byLine(article: row))
+                        }
+                    }
+                    .listStyle(.plain)
+                    .padding(10)
+                }
+                .onAppear {
+                    vm.getArticles()
+                }
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbar {
+                    ToolbarItemGroup(placement: .principal) {
+                        Text(self.vm.title)
+                            .font(.title)
+                            .foregroundColor(.black)
+                    }
+                }
+                if self.vm.showProgress{
+                   ProgressView()
+                }
+            }
+        }
+    }
 }

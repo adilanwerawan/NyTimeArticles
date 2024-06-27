@@ -9,6 +9,6 @@ import Foundation
 
 public struct APIConstants {
     public struct Endpoint {
-        public static let mostViewedArticles = "svc/mostpopular/v2/mostviewed/all-sections/7.json?"
+        public static let mostViewedArticles = "/svc/mostpopular/v2/mostviewed/all-sections/7.json?"
     }
 }

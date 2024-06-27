@@ -7,7 +7,7 @@
 
 import Foundation
 
-class NyResult : Codable {
+class NyResult : Codable, Identifiable {
 
 	let abstractField : String?
 	let adxKeywords : String?
