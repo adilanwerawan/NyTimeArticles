@@ -1,0 +1,1200 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2024 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/df8f7d44-67de-539e-84ac-ab9912e42cda",
+      "url": "https://www.nytimes.com/2024/06/25/world/middleeast/israel-military-ultra-orthodox-jews-supreme-court.html",
+      "id": 100000009527704,
+      "asset_id": 100000009527704,
+      "source": "New York Times",
+      "published_date": "2024-06-25",
+      "updated": "2024-06-26 13:02:14",
+      "section": "World",
+      "subsection": "Middle East",
+      "nytdsection": "world",
+      "adx_keywords": "Orthodox Judaism;Defense and Military Forces;Draft and Recruitment (Military);Israel-Gaza War (2023- );Decisions and Verdicts;Netanyahu, Benjamin;Supreme Court of Israel;Israel",
+      "column": null,
+      "byline": "By Aaron Boxerman",
+      "type": "Article",
+      "title": "Israeli Military Must Draft Ultra-Orthodox Jews, Supreme Court Rules",
+      "abstract": "The court ruled there was no legal justification for the ultra-Orthodox exemption from service, a decision that threatened to split Prime Minister Benjamin Netanyahu’s wartime government.",
+      "des_facet": [
+        "Orthodox Judaism",
+        "Defense and Military Forces",
+        "Draft and Recruitment (Military)",
+        "Israel-Gaza War (2023- )",
+        "Decisions and Verdicts"
+      ],
+      "org_facet": [
+        "Supreme Court of Israel"
+      ],
+      "per_facet": [
+        "Netanyahu, Benjamin"
+      ],
+      "geo_facet": [
+        "Israel"
+      ],
+      "media": [],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/a9ae46cc-1440-5b2d-ad28-6cf310b075a7",
+      "url": "https://www.nytimes.com/2024/06/21/opinion/trump-comstock-act-abortion.html",
+      "id": 100000009532369,
+      "asset_id": 100000009532369,
+      "source": "New York Times",
+      "published_date": "2024-06-21",
+      "updated": "2024-06-22 20:28:57",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Abortion;Presidential Election of 2024;Conservatism (US Politics);Right-Wing Extremism and Alt-Right;United States Politics and Government;Trump, Donald J;Comstock, Anthony;Biden, Joseph R Jr;Democratic Party",
+      "column": null,
+      "byline": "By Michelle Goldberg",
+      "type": "Article",
+      "title": "Trump’s Allies Say They’ll Enforce the Comstock Act. Believe Them.",
+      "abstract": "Democrats should rally around a bill to overhaul the 1873 anti-vice law.",
+      "des_facet": [
+        "Abortion",
+        "Presidential Election of 2024",
+        "Conservatism (US Politics)",
+        "Right-Wing Extremism and Alt-Right",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Democratic Party"
+      ],
+      "per_facet": [
+        "Trump, Donald J",
+        "Comstock, Anthony",
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The birth control activist Margaret Sanger, right, who was jailed in 1916 on charges of violating the Comstock obscenity laws.",
+          "copyright": "Library of Congress",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/opinion/21goldberg1/21goldberg1-thumbStandard-v3.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/opinion/21goldberg1/21goldberg1-mediumThreeByTwo210-v3.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/opinion/21goldberg1/21goldberg1-mediumThreeByTwo440-v3.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/8bcae6d7-074b-519c-bc4f-0ef5c636b776",
+      "url": "https://www.nytimes.com/2024/06/21/opinion/trump-vp-pick-marco-rubio.html",
+      "id": 100000009530661,
+      "asset_id": 100000009530661,
+      "source": "New York Times",
+      "published_date": "2024-06-21",
+      "updated": "2024-06-23 22:54:01",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Presidential Election of 2024;United States Politics and Government;Hispanic-Americans;Polls and Public Opinion;Vice Presidents and Vice Presidency (US);Rubio, Marco;Trump, Donald J;Republican Party;Pennsylvania",
+      "column": null,
+      "byline": "By Michael LaRosa",
+      "type": "Article",
+      "title": "The Trump Running Mate Who Would Threaten the Blue Wall",
+      "abstract": "Rubio would offer Latinos the chance to vote for one of their own to be a heartbeat away from the presidency.",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "United States Politics and Government",
+        "Hispanic-Americans",
+        "Polls and Public Opinion",
+        "Vice Presidents and Vice Presidency (US)"
+      ],
+      "org_facet": [
+        "Republican Party"
+      ],
+      "per_facet": [
+        "Rubio, Marco",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Pennsylvania"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Joe Raedle/Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/24/multimedia/21larosa-mcfw/21larosa-mcfw-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/24/multimedia/21larosa-mcfw/21larosa-mcfw-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/24/multimedia/21larosa-mcfw/21larosa-mcfw-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/728b574d-c4cf-5b74-95e4-e8b90af292ad",
+      "url": "https://www.nytimes.com/2024/06/22/opinion/justin-timberlake-arrest.html",
+      "id": 100000009534410,
+      "asset_id": 100000009534410,
+      "source": "New York Times",
+      "published_date": "2024-06-22",
+      "updated": "2024-06-24 23:17:11",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Pop and Rock Music;Drunken and Reckless Driving;Social Media;Content Type: Personal Profile;Timberlake, Justin;Jackson, Janet;Spears, Britney",
+      "column": null,
+      "byline": "By Jennifer Weiner",
+      "type": "Article",
+      "title": "The Tiresome Mr. Timberlake",
+      "abstract": "What are we to do with this privileged pop star?",
+      "des_facet": [
+        "Pop and Rock Music",
+        "Drunken and Reckless Driving",
+        "Social Media",
+        "Content Type: Personal Profile"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Timberlake, Justin",
+        "Jackson, Janet",
+        "Spears, Britney"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "David Swanson/EPA, via Shutterstock",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/22/multimedia/22weiner-wlzh/22weiner-wlzh-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/22/multimedia/22weiner-wlzh/22weiner-wlzh-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/22/multimedia/22weiner-wlzh/22weiner-wlzh-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/b9691959-2b00-5a51-97d4-d5fa85ce3ac5",
+      "url": "https://www.nytimes.com/2024/06/20/us/politics/timothy-mellon-trump-donation.html",
+      "id": 100000009529980,
+      "asset_id": 100000009529980,
+      "source": "New York Times",
+      "published_date": "2024-06-20",
+      "updated": "2024-06-21 22:29:30",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2024;Campaign Finance;United States Politics and Government;Mellon, Timothy (1942- );Trump, Donald J;Make America Great Again (MAGA) Inc;Republican Party",
+      "column": null,
+      "byline": "By Shane Goldmacher and Theodore Schleifer",
+      "type": "Article",
+      "title": "Timothy Mellon, Secretive Donor, Gives $50 Million to Pro-Trump Group",
+      "abstract": "The cash from Mr. Mellon, a reclusive billionaire who has also been a major donor to a super PAC supporting Robert F. Kennedy Jr., is among the largest single disclosed gifts ever.",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "Campaign Finance",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Make America Great Again (MAGA) Inc",
+        "Republican Party"
+      ],
+      "per_facet": [
+        "Mellon, Timothy (1942- )",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Former President Donald J. Trump and his allies have been working to close the financial gap with President Biden.",
+          "copyright": "Ash Ponders for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/20/multimedia/20pol-mellon-trump-topart-zlwb/20pol-mellon-trump-topart-zlwb-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/20/multimedia/20pol-mellon-trump-topart-zlwb/20pol-mellon-trump-topart-zlwb-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/20/multimedia/20pol-mellon-trump-topart-zlwb/20pol-mellon-trump-topart-zlwb-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/956ab6dc-f607-543c-910e-f7c5006f0df1",
+      "url": "https://www.nytimes.com/2024/06/15/magazine/alcohol-health-risks.html",
+      "id": 100000009508660,
+      "asset_id": 100000009508660,
+      "source": "New York Times",
+      "published_date": "2024-06-15",
+      "updated": "2024-06-18 17:26:17",
+      "section": "Magazine",
+      "subsection": "",
+      "nytdsection": "magazine",
+      "adx_keywords": "Alcoholic Beverages;Medicine and Health;Research;Cocktails and Mixed Drinks;Alcohol Abuse;Wines;Centers for Disease Control and Prevention",
+      "column": null,
+      "byline": "By Susan Dominus",
+      "type": "Article",
+      "title": "Is That Drink Worth It to You?",
+      "abstract": "Alcohol is riskier than previously thought, but weighing the trade-offs of health risks can be deeply personal.",
+      "des_facet": [
+        "Alcoholic Beverages",
+        "Medicine and Health",
+        "Research",
+        "Cocktails and Mixed Drinks",
+        "Alcohol Abuse",
+        "Wines"
+      ],
+      "org_facet": [
+        "Centers for Disease Control and Prevention"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Photo illustration by Ricardo Tomás",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/16/magazine/16mag-alcohol2/16mag-alcohol2-thumbStandard-v3.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/16/magazine/16mag-alcohol2/16mag-alcohol2-mediumThreeByTwo210-v3.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/16/magazine/16mag-alcohol2/16mag-alcohol2-mediumThreeByTwo440-v3.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/25db5d6b-15da-5b17-b244-b3dbdd3f16c9",
+      "url": "https://www.nytimes.com/2024/06/21/us/arkansas-grocery-store-fordyce-shooting.html",
+      "id": 100000009534472,
+      "asset_id": 100000009534472,
+      "source": "New York Times",
+      "published_date": "2024-06-21",
+      "updated": "2024-06-22 01:57:39",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Mass Shootings;Supermarkets and Grocery Stores;Fordyce (Ark)",
+      "column": null,
+      "byline": "By Jesus Jiménez and Hank Sanders",
+      "type": "Article",
+      "title": "3 Dead and 11 Injured in Shooting at Arkansas Grocery Store",
+      "abstract": "Two police officers were injured in the attack at the Mad Butcher store in Fordyce, and the shooter was injured, the authorities said.",
+      "des_facet": [
+        "Mass Shootings",
+        "Supermarkets and Grocery Stores"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Fordyce (Ark)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A shooting at the Mad Butcher grocery store in Fordyce, Ark., on Friday morning left three people dead, the police said.",
+          "copyright": "Colin Murphey/Arkansas Democrat-Gazette, via Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/21xp-arkansas-01-kjtc/21xp-arkansas-01-kjtc-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/21xp-arkansas-01-kjtc/21xp-arkansas-01-kjtc-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/21xp-arkansas-01-kjtc/21xp-arkansas-01-kjtc-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/023c26d3-b682-5a91-9872-53c11dc9afdc",
+      "url": "https://www.nytimes.com/interactive/2024/06/24/technology/ai-deepfake-facebook-midjourney-quiz.html",
+      "id": 100000009531741,
+      "asset_id": 100000009531741,
+      "source": "New York Times",
+      "published_date": "2024-06-24",
+      "updated": "2024-06-25 13:49:47",
+      "section": "Technology",
+      "subsection": "",
+      "nytdsection": "technology",
+      "adx_keywords": "Artificial Intelligence;Content Type: Quiz;Photography",
+      "column": null,
+      "byline": "By Stuart A. Thompson",
+      "type": "Interactive",
+      "title": "A.I. Is Getting Better Fast. Can You Tell What’s Real Now?",
+      "abstract": "Test your skills in this quiz.",
+      "des_facet": [
+        "Artificial Intelligence",
+        "Content Type: Quiz",
+        "Photography"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/2024-06-10-disinfo-quiz-index/2024-06-10-disinfo-quiz-index-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/2024-06-10-disinfo-quiz-index/2024-06-10-disinfo-quiz-index-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/2024-06-10-disinfo-quiz-index/2024-06-10-disinfo-quiz-index-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/ca4a4128-fd16-5496-b0a8-85492d491a4d",
+      "url": "https://www.nytimes.com/2024/06/23/opinion/rahimi-clarence-thomas-john-roberts.html",
+      "id": 100000009534031,
+      "asset_id": 100000009534031,
+      "source": "New York Times",
+      "published_date": "2024-06-23",
+      "updated": "2024-06-24 10:00:08",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Gun Control;Law and Legislation;Second Amendment (US Constitution);School Shootings and Armed Attacks;New York State Rifle & Pistol Association v Bruen (Supreme Court Decision);Thomas, Clarence;Roberts, John G Jr;Rahimi, Zackey;Kavanaugh, Brett M;Barrett, Amy Coney;Supreme Court (US)",
+      "column": null,
+      "byline": "By David French",
+      "type": "Article",
+      "title": "Clarence Thomas and John Roberts Are at a Fork in the Road",
+      "abstract": "Modern American lawmakers are not limited by the colonial imagination.",
+      "des_facet": [
+        "Gun Control",
+        "Law and Legislation",
+        "Second Amendment (US Constitution)",
+        "School Shootings and Armed Attacks",
+        "New York State Rifle & Pistol Association v Bruen (Supreme Court Decision)"
+      ],
+      "org_facet": [
+        "Supreme Court (US)"
+      ],
+      "per_facet": [
+        "Thomas, Clarence",
+        "Roberts, John G Jr",
+        "Rahimi, Zackey",
+        "Kavanaugh, Brett M",
+        "Barrett, Amy Coney"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Tasos Katopodis/Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/23/opinion/23French02/23French02-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/23/opinion/23French02/23French02-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/23/opinion/23French02/23French02-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/cee1bb4e-c833-5449-b969-1ee42fa67695",
+      "url": "https://www.nytimes.com/2024/06/12/well/move/core-ab-workout-20-minutes.html",
+      "id": 100000009410256,
+      "asset_id": 100000009410256,
+      "source": "New York Times",
+      "published_date": "2024-06-12",
+      "updated": "2024-06-25 18:07:37",
+      "section": "Well",
+      "subsection": "Move",
+      "nytdsection": "well",
+      "adx_keywords": "Exercise;Longevity;Muscles",
+      "column": null,
+      "byline": "By Jenny Marder",
+      "type": "Article",
+      "title": "A 20-Minute Core Workout for Strength and Stability",
+      "abstract": "This series of exercises focuses on important muscles in the legs and torso we use every day. No equipment (and very little space) necessary.",
+      "des_facet": [
+        "Exercise",
+        "Longevity",
+        "Muscles"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gritchelle Fallesgon for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/04/multimedia/SHORT-CORE-WORKOUT2-zhgt/SHORT-CORE-WORKOUT2-zhgt-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/04/multimedia/SHORT-CORE-WORKOUT2-zhgt/SHORT-CORE-WORKOUT2-zhgt-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/04/multimedia/SHORT-CORE-WORKOUT2-zhgt/SHORT-CORE-WORKOUT2-zhgt-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/6f9fbfb9-9dea-5485-8ebd-b13076a4d259",
+      "url": "https://www.nytimes.com/article/best-pizza.html",
+      "id": 100000009525925,
+      "asset_id": 100000009525925,
+      "source": "New York Times",
+      "published_date": "2024-06-25",
+      "updated": "2024-06-26 11:01:16",
+      "section": "Food",
+      "subsection": "",
+      "nytdsection": "food",
+      "adx_keywords": "Pizza;Restaurants;United States",
+      "column": null,
+      "byline": "By The New York Times",
+      "type": "Article",
+      "title": "22 of the Best Pizza Places in the United States",
+      "abstract": "From Southern California to the Mississippi Delta to the Pacific Northwest, the bounty of great pies has never been bigger.",
+      "des_facet": [
+        "Pizza",
+        "Restaurants"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "United States"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Lucy Hewett for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/26/multimedia/26Pizza-List-ghqt/25Pizza-List-ghqt-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/26/multimedia/26Pizza-List-ghqt/25Pizza-List-ghqt-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/26/multimedia/26Pizza-List-ghqt/25Pizza-List-ghqt-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/60c64a3c-aa34-55ce-9b6a-bc277096ffc5",
+      "url": "https://www.nytimes.com/2024/06/20/movies/donald-sutherland-dead.html",
+      "id": 100000006799345,
+      "asset_id": 100000006799345,
+      "source": "New York Times",
+      "published_date": "2024-06-20",
+      "updated": "2024-06-21 17:40:49",
+      "section": "Movies",
+      "subsection": "",
+      "nytdsection": "movies",
+      "adx_keywords": "Deaths (Obituaries);Actors and Actresses;Movies;Sutherland, Donald",
+      "column": null,
+      "byline": "By Clyde Haberman",
+      "type": "Article",
+      "title": "Donald Sutherland, a Chameleon of a Movie Star, Dies at 88",
+      "abstract": "In a wide-ranging career (from “M*A*S*H” to “Ordinary People” to “The Hunger Games”), he could be endearing in one role, menacing in another and just plain odd in a third.",
+      "des_facet": [
+        "Deaths (Obituaries)",
+        "Actors and Actresses",
+        "Movies"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Sutherland, Donald"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Donald Sutherland in a 1970 publicity photo. He said he was once rejected for a film role by a producer who said: “This part calls for a guy-next-door type. You don’t look like you’ve lived next door to anyone.”",
+          "copyright": "Jack Robinson/Hulton Archive, via Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/00Sutherland1-hmpc-print1/00Sutherland1-hmpc-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/00Sutherland1-hmpc-print1/00Sutherland1-hmpc-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/00Sutherland1-hmpc-print1/00Sutherland1-hmpc-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/e14bf357-d3dd-53b6-8b6f-ded101a95f3b",
+      "url": "https://www.nytimes.com/2024/06/21/arts/ron-desantis-veto-arts-funding-florida.html",
+      "id": 100000009531343,
+      "asset_id": 100000009531343,
+      "source": "New York Times",
+      "published_date": "2024-06-21",
+      "updated": "2024-06-22 14:06:36",
+      "section": "Arts",
+      "subsection": "",
+      "nytdsection": "arts",
+      "adx_keywords": "Vetoes (US);Politics and Government;State Legislatures;Budgets and Budgeting;Culture (Arts);Art;Museums;Opera;Finances;DeSantis, Ron;Florida",
+      "column": null,
+      "byline": "By Patricia Mazzei",
+      "type": "Article",
+      "title": "DeSantis Vetoes All Arts Grants in Florida",
+      "abstract": "Gov. Ron DeSantis gave no explanation for zeroing out the $32 million in grants that were approved by state lawmakers.",
+      "des_facet": [
+        "Vetoes (US)",
+        "Politics and Government",
+        "State Legislatures",
+        "Budgets and Budgeting",
+        "Culture (Arts)",
+        "Art",
+        "Museums",
+        "Opera",
+        "Finances"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "DeSantis, Ron"
+      ],
+      "geo_facet": [
+        "Florida"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Unlike in previous years, Gov. Ron DeSantis had not set aside a place-holder amount of funding for the arts grants.",
+          "copyright": "Octavio Jones/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/21desantis-arts-qbcp/21desantis-arts-qbcp-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/21desantis-arts-qbcp/21desantis-arts-qbcp-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/21desantis-arts-qbcp/21desantis-arts-qbcp-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/78edabe1-873d-545b-9291-ecc1d3edae6e",
+      "url": "https://www.nytimes.com/2024/06/24/us/iowa-flooding-south-dakota.html",
+      "id": 100000009536163,
+      "asset_id": 100000009536163,
+      "source": "New York Times",
+      "published_date": "2024-06-24",
+      "updated": "2024-06-25 00:11:18",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Floods;Rain;Evacuations and Evacuees;Iowa;South Dakota;Minnesota",
+      "column": null,
+      "byline": "By Ann Hinga Klein and Mitch Smith",
+      "type": "Article",
+      "title": "Wading Through Neck-High Waters in Iowa, a Husband Implored His Wife to Keep Going",
+      "abstract": "Officials in Iowa, South Dakota and Minnesota reported widespread damage and continuing danger. A bridge collapsed on Sunday and a dam was at risk on Monday.",
+      "des_facet": [
+        "Floods",
+        "Rain",
+        "Evacuations and Evacuees"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Iowa",
+        "South Dakota",
+        "Minnesota"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A bridge collapsed amid flooding between Sioux City, Iowa, and North Sioux City, S.D.",
+          "copyright": "KC McGinnis for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/24/multimedia/24nat-midwest-flood-czmj/24nat-midwest-flood-czmj-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/24/multimedia/24nat-midwest-flood-czmj/24nat-midwest-flood-czmj-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/24/multimedia/24nat-midwest-flood-czmj/24nat-midwest-flood-czmj-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/76329554-ed4f-5ef7-abcd-425c5cce5b24",
+      "url": "https://www.nytimes.com/2024/06/26/us/politics/supreme-court-biden-free-speech.html",
+      "id": 100000009480779,
+      "asset_id": 100000009480779,
+      "source": "New York Times",
+      "published_date": "2024-06-26",
+      "updated": "2024-06-26 22:53:00",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Decisions and Verdicts;United States Politics and Government;Social Media;Freedom of Speech and Expression;First Amendment (US Constitution);Censorship;Biden, Joseph R Jr;Doughty, Terry A;Supreme Court (US)",
+      "column": null,
+      "byline": "By Adam Liptak",
+      "type": "Article",
+      "title": "Supreme Court Rejects Challenge to Biden Administration’s Contacts With Social Media Companies",
+      "abstract": "The case, one of several this term on how the First Amendment applies to technology platforms, was dismissed on the ground that the plaintiffs lacked standing to sue.",
+      "des_facet": [
+        "Decisions and Verdicts",
+        "United States Politics and Government",
+        "Social Media",
+        "Freedom of Speech and Expression",
+        "First Amendment (US Constitution)",
+        "Censorship"
+      ],
+      "org_facet": [
+        "Supreme Court (US)"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Doughty, Terry A"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The case arose from a barrage of communications from Biden administration officials urging platforms to take down posts on topics like the coronavirus vaccine and claims of election fraud.",
+          "copyright": "Haiyun Jiang for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/07/multimedia/00dc-scotus-contacts-tzvc/00dc-scotus-contacts-tzvc-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/07/multimedia/00dc-scotus-contacts-tzvc/00dc-scotus-contacts-tzvc-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/07/multimedia/00dc-scotus-contacts-tzvc/00dc-scotus-contacts-tzvc-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/4d353ced-8a85-5497-85ba-8831b97d4dd3",
+      "url": "https://www.nytimes.com/2024/06/21/well/live/teeth-habits-health-dentists.html",
+      "id": 100000009532681,
+      "asset_id": 100000009532681,
+      "source": "New York Times",
+      "published_date": "2024-06-21",
+      "updated": "2024-06-21 05:04:16",
+      "section": "Well",
+      "subsection": "Live",
+      "nytdsection": "well",
+      "adx_keywords": "Teeth and Dentistry;Content Type: Service;Habits and Routines (Behavior)",
+      "column": null,
+      "byline": "By Jancee Dunn",
+      "type": "Article",
+      "title": "5 Things You Do That Keep Dentists in Business",
+      "abstract": "These habits can cause a surprising amount of damage to your teeth, experts say.",
+      "des_facet": [
+        "Teeth and Dentistry",
+        "Content Type: Service",
+        "Habits and Routines (Behavior)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Nicolás Ortega; Photograph by Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/well/21NL-WELL-DENTISTSHATE/21NL-WELL-DENTISTSHATE-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/well/21NL-WELL-DENTISTSHATE/21NL-WELL-DENTISTSHATE-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/well/21NL-WELL-DENTISTSHATE/21NL-WELL-DENTISTSHATE-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/026f8c75-1c1f-5b9e-a6a5-9c8a7cfb6cdd",
+      "url": "https://www.nytimes.com/2024/06/25/nyregion/bowman-latimer-house-new-york.html",
+      "id": 100000009530720,
+      "asset_id": 100000009530720,
+      "source": "New York Times",
+      "published_date": "2024-06-25",
+      "updated": "2024-06-27 00:00:09",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "United States Politics and Government;Palestinians;Israel-Gaza War (2023- );Primaries and Caucuses;Race and Ethnicity;Elections, House of Representatives;Bowman, Jamaal;Latimer, George S;American Israel Public Affairs Committee;Democratic Party;Yonkers (NY);Bronx (NYC);Westchester County (NY);New York State",
+      "column": null,
+      "byline": "By Nicholas Fandos",
+      "type": "Article",
+      "title": "Bowman Falls to Latimer in a Loss for Progressive Democrats",
+      "abstract": "Representative Jamaal Bowman of New York, a member of the House’s left-wing “squad,” was defeated by George Latimer in a race that exposed Democratic fissures.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Palestinians",
+        "Israel-Gaza War (2023- )",
+        "Primaries and Caucuses",
+        "Race and Ethnicity",
+        "Elections, House of Representatives"
+      ],
+      "org_facet": [
+        "American Israel Public Affairs Committee",
+        "Democratic Party"
+      ],
+      "per_facet": [
+        "Bowman, Jamaal",
+        "Latimer, George S"
+      ],
+      "geo_facet": [
+        "Yonkers (NY)",
+        "Bronx (NYC)",
+        "Westchester County (NY)",
+        "New York State"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "“We should not be well adjusted to a sick society,” Representative Jamaal Bowman told supporters in his concession speech.",
+          "copyright": "Gregg Vigliotti for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/25/multimedia/25ny-bowman-latimer1-wfgc/25ny-bowman-latimer1-wfgc-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/25/multimedia/25ny-bowman-latimer1-wfgc/25ny-bowman-latimer1-wfgc-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/25/multimedia/25ny-bowman-latimer1-wfgc/25ny-bowman-latimer1-wfgc-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/fc9e6b0e-aa51-5f9d-a7cd-98b5ebee74fa",
+      "url": "https://www.nytimes.com/interactive/2024/06/21/briefing/quiz-heat-nvidia-willie-mays-celtics.html",
+      "id": 100000009532589,
+      "asset_id": 100000009532589,
+      "source": "New York Times",
+      "published_date": "2024-06-21",
+      "updated": "2024-06-21 10:57:29",
+      "section": "Briefing",
+      "subsection": "",
+      "nytdsection": "briefing",
+      "adx_keywords": "Content Type: Quiz;internal-truncator",
+      "column": null,
+      "byline": "",
+      "type": "Interactive",
+      "title": "The New York Times News Quiz, June 21, 2024",
+      "abstract": "Did you follow the news this week? Take our quiz to see how well you stack up with other Times readers.",
+      "des_facet": [
+        "Content Type: Quiz",
+        "internal-truncator"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "Jared Wickerham for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/21themorning-nl-quiz-lphg/21themorning-nl-quiz-lphg-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/21themorning-nl-quiz-lphg/21themorning-nl-quiz-lphg-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/21/multimedia/21themorning-nl-quiz-lphg/21themorning-nl-quiz-lphg-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/3aa17949-9526-5767-86f1-8b61abaad579",
+      "url": "https://www.nytimes.com/2024/06/24/opinion/biden-trump-health-conditions.html",
+      "id": 100000009526011,
+      "asset_id": 100000009526011,
+      "source": "New York Times",
+      "published_date": "2024-06-24",
+      "updated": "2024-06-25 10:19:06",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Presidential Election of 2024;United States Politics and Government;Age, Chronological;Medicine and Health;Tests (Medical);Elderly;Biden, Joseph R Jr;Trump, Donald J",
+      "column": null,
+      "byline": "By Daniela J. Lamas",
+      "type": "Article",
+      "title": "I’m a Doctor and a Voter. Here’s How I’m Thinking About the Health of Trump and Biden.",
+      "abstract": "We live in an age when people can live longer and healthier even with significant health conditions. What does this mean for future presidents?",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "United States Politics and Government",
+        "Age, Chronological",
+        "Medicine and Health",
+        "Tests (Medical)",
+        "Elderly"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Vanessa Saba",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/24/opinion/24Lamas-image/24Lamas-image-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/24/opinion/24Lamas-image/24Lamas-image-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/24/opinion/24Lamas-image/24Lamas-image-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/99f2ec3d-88a6-5bd2-bf6a-9e05bf00e2cf",
+      "url": "https://www.nytimes.com/2024/06/22/nyregion/columbia-deans-antisemitism-panel.html",
+      "id": 100000009535270,
+      "asset_id": 100000009535270,
+      "source": "New York Times",
+      "published_date": "2024-06-22",
+      "updated": "2024-06-25 11:29:11",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "Colleges and Universities;Anti-Semitism;Text Messaging;Israel-Gaza War (2023- );Pro-Palestinian Campus Protests (2023- );Columbia University;Washington Free Beacon, The",
+      "column": null,
+      "byline": "By Hurubie Meko",
+      "type": "Article",
+      "title": "3 Columbia Deans Placed on Leave Over Conduct at Antisemitism Panel",
+      "abstract": "Leaked images showed the trio sharing disparaging text messages during an alumni group discussion last month about Jewish life on campus.",
+      "des_facet": [
+        "Colleges and Universities",
+        "Anti-Semitism",
+        "Text Messaging",
+        "Israel-Gaza War (2023- )",
+        "Pro-Palestinian Campus Protests (2023- )"
+      ],
+      "org_facet": [
+        "Columbia University",
+        "Washington Free Beacon, The"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The episode was only the most recent controversy at Columbia University since the start of the Israel-Hamas war last fall.",
+          "copyright": "Bing Guan for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/06/22/multimedia/22columbia-deans-camp-zmjf/22columbia-deans-camp-zmjf-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/22/multimedia/22columbia-deans-camp-zmjf/22columbia-deans-camp-zmjf-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/06/22/multimedia/22columbia-deans-camp-zmjf/22columbia-deans-camp-zmjf-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}

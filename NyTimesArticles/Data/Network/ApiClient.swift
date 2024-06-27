@@ -39,44 +39,42 @@ public class APIClient: APIClientProtocol {
     
     public func sendRequestMock(apiRequest: APIRequest, completion: @escaping APIClientCompletion){
         
-        //        return send(apiRequest: apiRequest, mock: true)
-        //            .asObservable()
-        //            .retry { (error) -> Observable<Token> in
-        //                return self.commonRetryWhen(error: error)
-        //            }
+        self.send(apiRequest: apiRequest, mock: true, completion: completion)
     }
     
     public func send(apiRequest: APIRequest, mock: Bool = false, completion: @escaping APIClientCompletion){
         
         let urlStr = self.getFullURL(for: apiRequest, mock: mock)
-        let headers = self.getHeaders(for: apiRequest)
         
-        guard var urlComps = URLComponents(string: urlStr) else {
-            completion(.failure(.invalidURL));
-            return
-        }
-        
-        var queryItems:[URLQueryItem] = []
-        
-        for item in apiRequest.parameters{
-            queryItems.append(URLQueryItem(name: item.key, value: item.value as? String))
-        }
-        
-        urlComps.queryItems = queryItems
-        let url = urlComps.url!
-        
-        var urlRequest = URLRequest(url: url)
-        urlRequest.httpMethod = apiRequest.method.rawValue
-        
-        urlRequest.allHTTPHeaderFields = headers
-        
-        let task = session.dataTask(with: urlRequest) { (data, response, error) in
-            guard let httpResponse = response as? HTTPURLResponse else {
-                completion(.failure(.requestFailed)); return
+        if !mock{
+            let headers = self.getHeaders(for: apiRequest)
+            
+            guard var urlComps = URLComponents(string: urlStr) else {
+                completion(.failure(.invalidURL));
+                return
             }
-            completion(.success(APIResponse<Data?>(statusCode: httpResponse.statusCode, body: data)))
+            
+            var queryItems:[URLQueryItem] = []
+            
+            for item in apiRequest.parameters{
+                queryItems.append(URLQueryItem(name: item.key, value: item.value as? String))
+            }
+            
+            urlComps.queryItems = queryItems
+            let url = urlComps.url!
+            
+            var urlRequest = URLRequest(url: url)
+            urlRequest.httpMethod = apiRequest.method.rawValue
+            
+            urlRequest.allHTTPHeaderFields = headers
+            loadRequest(urlRequest: urlRequest, completion: completion)
+        } else {
+            #if DEBUG
+            guard let url = URL(string: urlStr) else { return }
+            let urlRequest = URLRequest(url: url)
+            loadRequest(urlRequest: urlRequest, completion: completion)
+            #endif
         }
-        task.resume()
     }
 }
 
@@ -110,13 +108,24 @@ public enum APIResult<Body:Codable> {
 // MARK: Helpers
 
 extension APIClient {
+    
+    private func loadRequest(urlRequest:URLRequest, completion: @escaping APIClientCompletion){
+        let task = session.dataTask(with: urlRequest) { (data, response, error) in
+            guard let httpResponse = response as? HTTPURLResponse else {
+                completion(.failure(.requestFailed)); return
+            }
+            completion(.success(APIResponse<Data?>(statusCode: httpResponse.statusCode, body: data)))
+        }
+        task.resume()
+    }
+    
     private var baseURL: String {
         return "https://api.nytimes.com"
     }
     
     private func getFullURL(for request: APIRequest, mock: Bool) -> String {
         
-        let baseURL = mock ? Constants.mockUrlString : baseURL
+        let baseURL = mock ? self.loadJsonURL(filename: "articles-mock") : baseURL
         return baseURL + request.endPoint
     }
     
@@ -127,5 +136,16 @@ extension APIClient {
             "X-Requested-With" : "XMLHttpRequest"
         ]
         return commonHeaders
+    }
+    
+    private func loadJsonURL(filename fileName: String) -> String {
+        #if DEBUG
+        var url = ""
+        if let urlPath = Bundle.main.url(forResource: fileName, withExtension: "json") {
+            url = urlPath.absoluteString
+            
+        }
+        return url
+        #endif
     }
 }
