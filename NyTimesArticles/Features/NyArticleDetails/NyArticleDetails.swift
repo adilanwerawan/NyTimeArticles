@@ -47,11 +47,11 @@ struct NyArticleDetails: View {
                     .padding(5)
                     Text(self.vm.articleTitle)
                         .font(.body)
-                        .foregroundStyle(Color.black)
+                        .foregroundStyle(Color.primary)
                         .frame(alignment: .leading)
                     Text(self.vm.abstractField)
                         .font(.system(size: 12))
-                        .foregroundStyle(Color.black)
+                        .foregroundStyle(Color.primary)
                     Text(self.vm.byLine)
                         .font(.system(size: 12))
                         .foregroundStyle(Color.gray)
@@ -65,7 +65,7 @@ struct NyArticleDetails: View {
             ToolbarItemGroup(placement: .principal) {
                 Text(self.vm.title)
                     .font(.title)
-                    .foregroundColor(.black)
+                    .foregroundColor(.primary)
             }
         }
     }

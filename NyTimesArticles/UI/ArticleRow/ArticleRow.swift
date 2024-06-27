@@ -22,7 +22,7 @@ struct ArticleRow: View {
         VStack(alignment: .leading, spacing: 8.0){
             Text(title)
                 .font(.body)
-                .foregroundStyle(Color.black)
+                .foregroundStyle(Color.primary)
                 .frame(alignment: .leading)
                 .padding(.leading, 0)
             HStack(spacing:8.0){

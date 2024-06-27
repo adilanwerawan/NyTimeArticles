@@ -35,7 +35,7 @@ struct NyArticlesHomeView: View {
                     ToolbarItemGroup(placement: .principal) {
                         Text(self.vm.title)
                             .font(.title)
-                            .foregroundColor(.black)
+                            .foregroundColor(.primary)
                     }
                 }
                 if self.vm.showProgress{
