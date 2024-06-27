@@ -16,8 +16,6 @@ public protocol APIClientProtocol {
 
 public class APIClient: APIClientProtocol {
     struct Constants {
-        static let mockUrlString = "https://74486c29-fc71-4673-9be3-3352689e3571.mock.pstmn.io"
-        static let mockUrl = URL(string: mockUrlString)
         static let timeout: Double = 300
     }
     
