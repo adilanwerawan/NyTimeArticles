@@ -23,7 +23,8 @@ final class NyTimesArticlesApiParsingTest: XCTestCase {
         super.tearDown()
     }
     
-    func testApiParsingSuccess(){
+    func testApiSuccess(){
+        let expectation = self.expectation(description: "Fetch data")
         apiClient.send(apiRequest: ArticlesRequest()) { result in
             DispatchQueue.main.async{
                 switch result {
@@ -38,8 +39,33 @@ final class NyTimesArticlesApiParsingTest: XCTestCase {
                 case .failure:
                     XCTFail()
                 }
+                expectation.fulfill()
             }
         }
+        wait(for: [expectation], timeout: 10.0)
     }
+    
+    func testApiParsingSuccess(){
+        let expectation = self.expectation(description: "Fetch data")
+        apiClient.sendRequestMock(apiRequest:ArticlesRequest()) { result in
+            DispatchQueue.main.async{
+                switch result {
+                case .success(let response):
+                    if let response = try? response.decode(to: NyArticle.self) {
+                        if let results = response.body.results {
+                            XCTAssertTrue(results.count > 0)
+                        }
+                    } else {
+                        XCTFail()
+                    }
+                case .failure:
+                    XCTFail()
+                }
+                expectation.fulfill()
+            }
+        }
+        wait(for: [expectation], timeout: 10.0)
+    }
+
     
 }
