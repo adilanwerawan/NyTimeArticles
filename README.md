@@ -1,6 +1,6 @@
 # NyTimeArticles
 
-- New york time popular articles downloaded and shown in the app using SwiftUI.
+- New york time popular articles are shown in the app using SwiftUI.
 - Clean architecture has been followed by MVVM + Combine + Repository + UseCase.
 - Unit test has been written for Api parsing.
 - To view the code coverage report:
