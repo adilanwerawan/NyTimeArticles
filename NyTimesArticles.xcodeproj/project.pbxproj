@@ -32,7 +32,6 @@
 		5DBA422D2C2C096E00B716CD /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA422C2C2C096E00B716CD /* View+Extension.swift */; };
 		5DBA42332C2C248900B716CD /* NyArticleDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42322C2C248900B716CD /* NyArticleDetails.swift */; };
 		5DBA42352C2C24A600B716CD /* NyArticleDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA42342C2C24A600B716CD /* NyArticleDetailsViewModel.swift */; };
-		5DDD90D22C2DA9D100D8C81E /* articles-mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D24C0D62C2D92F500CB407E /* articles-mock.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +46,6 @@
 
 /* Begin PBXFileReference section */
 		5D24C0D32C2D769600CB407E /* NyAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyAsyncImage.swift; sourceTree = "<group>"; };
-		5D24C0D62C2D92F500CB407E /* articles-mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "articles-mock.json"; sourceTree = "<group>"; };
 		5DBA41CA2C2AB7E000B716CD /* NyTimesArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyTimesArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBA41CD2C2AB7E000B716CD /* NyTimesArticlesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyTimesArticlesApp.swift; sourceTree = "<group>"; };
 		5DBA41CF2C2AB7E000B716CD /* NyArticlesHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyArticlesHomeView.swift; sourceTree = "<group>"; };
@@ -103,14 +101,6 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
-		5D24C0D82C2D93B000CB407E /* Mocking Data */ = {
-			isa = PBXGroup;
-			children = (
-				5D24C0D62C2D92F500CB407E /* articles-mock.json */,
-			);
-			path = "Mocking Data";
-			sourceTree = "<group>";
-		};
 		5DBA41C12C2AB7E000B716CD = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +146,6 @@
 		5DBA41DE2C2AB7E200B716CD /* NyTimesArticlesTests */ = {
 			isa = PBXGroup;
 			children = (
-				5D24C0D82C2D93B000CB407E /* Mocking Data */,
 				5DBA41DF2C2AB7E200B716CD /* NyTimesArticlesApiParsingTest.swift */,
 			);
 			path = NyTimesArticlesTests;
@@ -420,7 +409,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DDD90D22C2DA9D100D8C81E /* articles-mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

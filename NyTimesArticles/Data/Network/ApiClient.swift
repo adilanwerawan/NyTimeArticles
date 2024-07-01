@@ -66,13 +66,7 @@ public class APIClient: APIClientProtocol {
             
             urlRequest.allHTTPHeaderFields = headers
             loadRequest(urlRequest: urlRequest, completion: completion)
-        } else {
-            #if DEBUG
-            guard let url = URL(string: urlStr) else { return }
-            let urlRequest = URLRequest(url: url)
-            loadRequest(urlRequest: urlRequest, completion: completion)
-            #endif
-        }
+        } 
     }
 }
 
@@ -123,7 +117,7 @@ extension APIClient {
     
     private func getFullURL(for request: APIRequest, mock: Bool) -> String {
         
-        let baseURL = mock ? self.loadJsonURL(filename: "articles-mock") : baseURL
+        let baseURL = baseURL
         return baseURL + request.endPoint
     }
     
@@ -134,16 +128,5 @@ extension APIClient {
             "X-Requested-With" : "XMLHttpRequest"
         ]
         return commonHeaders
-    }
-    
-    private func loadJsonURL(filename fileName: String) -> String {
-        #if DEBUG
-        var url = ""
-        if let urlPath = Bundle.main.url(forResource: fileName, withExtension: "json") {
-            url = urlPath.absoluteString
-            
-        }
-        return url
-        #endif
     }
 }
